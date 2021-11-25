@@ -1,0 +1,96 @@
+html 
+{
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body 
+{
+	background-color: #6b031d;
+}
+
+.container 
+{
+	max-width: 700px;
+	height: auto;
+	background-color: #32ca13;
+	margin: 10% auto;
+	padding-bottom: 7rem;
+	
+}
+
+.form__top 
+{
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .5rem #ebae06;
+	margin-bottom: 2rem;
+}
+
+.form__top h2 
+{
+	font-weight: bold;
+	color: #030116;
+	font-size: 30px;
+}
+
+h2 span 
+{
+	color: #8f8108;
+}
+
+.form__reg 
+{
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form 
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3rem;
+}
+
+.input, .btn__submit, .btn__reset
+{
+	background-color: #e6dfe7;
+	font-weight: bold;
+	padding: .4rem;
+	margin: .3rem 0;
+	border: none;
+	border-bottom: solid #07024d .3rem;
+	transition: all .5s;
+}
+
+.input:focus 
+{
+	border-bottom: solid #df0808 .3rem;
+}
+
+.btn__submit, .btn__reset 
+{
+	width: 35%;
+	border-bottom: none;
+	background-color: #e9e50f;
+	font-weight: bold;
+	color: rgb(20, 1, 16);
+}
+
+.btn__reset 
+{
+	background-color: #e72253;
+}
+
+.btn__submit:hover 
+{
+	background-color: #7b05aa;
+}
+
+.btn__reset:hover
+{
+	background-color: #e60606;
+}
